@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-crud-operations-pnpjs-client-side-solution",
+    "id": "0427c583-26e9-44f1-b72e-0e28eef4efb0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-crud-operations-pnpjs description"
+      },
+      "longDescription": {
+        "default": "react-crud-operations-pnpjs description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-crud-operations-pnpjs Feature",
+        "description": "The feature that activates elements of the react-crud-operations-pnpjs solution.",
+        "id": "805ddf5c-400c-48fe-b67c-485f2ee92bed",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-crud-operations-pnpjs.sppkg"
+  }
+}

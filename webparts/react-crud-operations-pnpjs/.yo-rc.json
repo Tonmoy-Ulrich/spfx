@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "react-crud-operations-pnpjs",
+    "libraryId": "0427c583-26e9-44f1-b72e-0e28eef4efb0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-crud-operations-pnpjs",
+    "solutionShortDescription": "react-crud-operations-pnpjs description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-crud-pn-p-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactCrudPnP/ReactCrudPnPWebPart.js",
+          "manifest": "./src/webparts/reactCrudPnP/ReactCrudPnPWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactCrudPnPWebPartStrings": "lib/webparts/reactCrudPnP/loc/{locale}.js"
+  }
+}
