@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-functional-component-client-side-solution",
+    "id": "48f84702-d3f4-4cbb-948e-e5fb76d98758",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-functional-component description"
+      },
+      "longDescription": {
+        "default": "react-functional-component description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-functional-component Feature",
+        "description": "The feature that activates elements of the react-functional-component solution.",
+        "id": "df9e1174-14a9-46e4-8ea4-b4965b7d5d68",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-functional-component.sppkg"
+  }
+}
