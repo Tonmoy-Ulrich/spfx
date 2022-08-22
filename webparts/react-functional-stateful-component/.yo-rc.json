@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "react-functional-stateful-component",
+    "libraryId": "f0eb3783-11d8-4844-8628-3b50f6e9b8a5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-functional-stateful-component",
+    "solutionShortDescription": "react-functional-stateful-component description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

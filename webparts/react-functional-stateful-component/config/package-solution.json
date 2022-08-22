@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-functional-stateful-component-client-side-solution",
+    "id": "f0eb3783-11d8-4844-8628-3b50f6e9b8a5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-functional-stateful-component description"
+      },
+      "longDescription": {
+        "default": "react-functional-stateful-component description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-functional-stateful-component Feature",
+        "description": "The feature that activates elements of the react-functional-stateful-component solution.",
+        "id": "558797c1-0a20-43a7-acaf-b7ae4d7fd854",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-functional-stateful-component.sppkg"
+  }
+}
