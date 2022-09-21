@@ -1,0 +1,31 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+    "port": 4321,
+    "https": true,
+    "serveConfigurations": {
+        "default": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/SitePages/Employee.aspx",
+            "customActions": {
+                "149d6d84-b7ce-4075-b1ad-b71dace70bd4": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "Top": "Top Header",
+                        "Bottom": "Bottom Footer"
+                    }
+                }
+            }
+        },
+        "helloWorld": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/SitePages/Employee.aspx",
+            "customActions": {
+                "149d6d84-b7ce-4075-b1ad-b71dace70bd4": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "Top": "Top Header",
+                        "Bottom": "Bottom Footer"
+                    }
+                }
+            }
+        }
+    }
+}

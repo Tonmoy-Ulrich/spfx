@@ -1,0 +1,53 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+    "port": 4321,
+    "https": true,
+    "serveConfigurations": {
+        "default": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/_layouts/15/SPListForm.aspx",
+            "formCustomizer": {
+                "componentId": "66969800-b907-47d9-8b67-c6355931125f",
+                "PageType": 8,
+                "RootFolder": "/sites/SharePointRnD/Lists/Employee",
+                "properties": {
+                    "sampleText": "Value"
+                }
+            }
+        },
+        "helloWorld_NewForm": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/_layouts/15/SPListForm.aspx",
+            "formCustomizer": {
+                "componentId": "66969800-b907-47d9-8b67-c6355931125f",
+                "PageType": 8,
+                "RootFolder": "/sites/SharePointRnD/Lists/Employee",
+                "properties": {
+                    "sampleText": "Value"
+                }
+            }
+        },
+        "helloWorld_EditForm": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/_layouts/15/SPListForm.aspx",
+            "formCustomizer": {
+                "componentId": "66969800-b907-47d9-8b67-c6355931125f",
+                "PageType": 6,
+                "RootFolder": "/sites/SharePointRnD/Lists/Employee",
+                "ID": 30,
+                "properties": {
+                    "sampleText": "Value"
+                }
+            }
+        },
+        "helloWorld_ViewForm": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/_layouts/15/SPListForm.aspx",
+            "formCustomizer": {
+                "componentId": "66969800-b907-47d9-8b67-c6355931125f",
+                "PageType": 4,
+                "RootFolder": "/sites/SharePointRnD/Lists/Employee",
+                "ID": 30,
+                "properties": {
+                    "sampleText": "Value"
+                }
+            }
+        }
+    }
+}

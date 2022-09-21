@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "form-customizer-2-client-side-solution",
+    "id": "f56e01f5-0c9a-4462-91db-f55d671abf0e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "form-customizer-2 description"
+      },
+      "longDescription": {
+        "default": "form-customizer-2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "form-customizer-2 Feature",
+        "description": "The feature that activates elements of the form-customizer-2 solution.",
+        "id": "96c9283e-694c-485b-9ff7-1b4e93b649ab",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/form-customizer-2.sppkg"
+  }
+}

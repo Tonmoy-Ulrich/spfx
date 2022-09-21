@@ -1,0 +1,29 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+    "port": 4321,
+    "https": true,
+    "serveConfigurations": {
+        "default": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/Lists/Employee/AllItems.aspx",
+            "fieldCustomizers": {
+                "Phone": {
+                    "id": "f82e47d9-68aa-4ec9-ade7-242373db45bf",
+                    "properties": {
+                        "sampleText": "Phone Number"
+                    }
+                }
+            }
+        },
+        "helloWorld": {
+            "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+            "fieldCustomizers": {
+                "InternalFieldName": {
+                    "id": "f82e47d9-68aa-4ec9-ade7-242373db45bf",
+                    "properties": {
+                        "sampleText": "Value"
+                    }
+                }
+            }
+        }
+    }
+}

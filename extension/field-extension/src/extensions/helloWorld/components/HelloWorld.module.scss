@@ -1,0 +1,15 @@
+.helloWorld {
+    color: "[theme:white, default:#ffffff]";
+    text-align: center;
+    padding: 0.4rem;
+}
+
+.given {
+    background-color: "[theme:themePrimary, default:#0078d4]";
+}
+
+.empty {
+    // background-color: "[theme:themeDarker, default:red]";
+    // color: "[theme:themeLighterAlt, default:white]";
+    background-color: red;
+}
