@@ -75,9 +75,6 @@ export default function CustomForm(props: ICustomFormProps): JSX.Element {
                 });
 
                 setEmployeeItems(items);
-                console.log(employeeItems);
-                console.log(items);
-
                 setJobItems(jobItems);
                 setDeptItems(deptItems);
             } else {

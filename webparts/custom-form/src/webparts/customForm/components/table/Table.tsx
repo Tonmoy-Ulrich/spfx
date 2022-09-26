@@ -6,8 +6,6 @@ import "@pnp/sp/lists";
 import "@pnp/sp/items";
 
 const Table = ({ employeeInfo, jobItems, deptItems }: any): JSX.Element => {
-    console.log(employeeInfo);
-
     return (
         <tr className={styles.container}>
             <td>

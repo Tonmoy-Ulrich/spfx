@@ -6,9 +6,10 @@
     "scripts": {
         "start": "gulp serve",
         "clean": "gulp clean",
-        "bundle": "gulp build && gulp bundle --ship",
+        "build": "gulp build",
+        "bundle": "gulp bundle --ship",
         "package": "gulp package-solution --ship",
-        "build": "npm run clean && npm run bundle && npm run package",
+        "pack": "npm run clean && npm run build && npm run bundle && npm run package",
         "test": "gulp test"
     },
     "dependencies": {
