@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "custom-form",
+    "libraryId": "6ed603da-6edf-4420-b408-4a3cd36d473e",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "custom-form",
+    "solutionShortDescription": "custom-form description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
