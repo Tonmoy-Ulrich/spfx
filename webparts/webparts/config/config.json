@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customForm/CustomFormWebPart.js",
+          "manifest": "./src/webparts/customForm/CustomFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "crud-pn-p-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/crudPnP/CrudPnPWebPart.js",
+          "manifest": "./src/webparts/crudPnP/CrudPnPWebPart.manifest.json"
+        }
+      ]
+    },
+    "roman-numerals-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/romanNumerals/RomanNumeralsWebPart.js",
+          "manifest": "./src/webparts/romanNumerals/RomanNumeralsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomFormWebPartStrings": "lib/webparts/customForm/loc/{locale}.js",
+    "CrudPnPWebPartStrings": "lib/webparts/crudPnP/loc/{locale}.js",
+    "RomanNumeralsWebPartStrings": "lib/webparts/romanNumerals/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

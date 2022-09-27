@@ -1,0 +1,13 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.container {
+    width: 100%;
+    background-color: white;
+    padding: 4px 1px 4px 8px;
+    margin: 12px 1px 12px 12px;
+
+    select {
+        min-width: 180px;
+        min-height: 24px;
+    }
+}
