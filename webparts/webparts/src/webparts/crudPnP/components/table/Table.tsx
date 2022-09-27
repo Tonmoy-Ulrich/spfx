@@ -25,7 +25,7 @@ const Table = ({
 
     const [isDisabledUpdate, setIsDisabledUpdate] = React.useState(true);
 
-    const change = (e): void => {
+    const change = (e: any): void => {
         const attr: string = e.target.name;
         const val: string = e.target.value;
         setEmployeeInfo({ ...employeeInfo, [attr]: val });
@@ -53,7 +53,7 @@ const Table = ({
                     value={employeeInfo.jobTitleId}
                     onChange={(e) => change(e)}
                 >
-                    {jobItems?.map((jobItem) => (
+                    {jobItems?.map((jobItem: any) => (
                         <option key={jobItem.Id} value={jobItem.Id}>
                             {jobItem.Title}
                         </option>
@@ -66,7 +66,7 @@ const Table = ({
                     value={employeeInfo.departmentNameId}
                     onChange={(e) => change(e)}
                 >
-                    {deptItems?.map((deptItem) => (
+                    {deptItems?.map((deptItem: any) => (
                         <option key={deptItem.Id} value={deptItem.Id}>
                             {deptItem.Title}
                         </option>

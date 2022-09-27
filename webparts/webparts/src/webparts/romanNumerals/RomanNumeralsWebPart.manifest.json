@@ -31,6 +31,8 @@
                 "title": "Convert Number to Roman Numerals",
                 "description": "Roman numeral converter - enter a number to see the equivalent in Roman numerals",
                 "initialValue": "2019",
+                "inputCaption": "Given Number",
+                "resultCaption": "Result :",
                 "showUpdownButtons": false
             }
         }
