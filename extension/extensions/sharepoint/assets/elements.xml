@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AppCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="3f4d581b-bda3-4cfa-86ad-179c6fbc114a"
+        ClientSideComponentProperties="{&quot;Top&quot;:&quot;Top Header&quot;,&quot;Bottom&quot;:&quot;Bottom Footer&quot;}">
+    </CustomAction>
+    <Field ID="{b009786e-27b8-4a6f-81da-3ab926e433d6}"
+            Name="Phone"
+            DisplayName="Phone"
+            Type="Number"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="1f7ee53f-9dd2-44a0-ac53-ceab719e5b80"
+            ClientSideComponentProperties="{&quot;sampleText&quot;:&quot;Phone Number&quot;}">
+    </Field>
+    <CustomAction
+        Title="CustomCommand"
+        RegistrationId="100"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="a8c7cdff-2c87-45ad-82dd-6e8f36b2db7d"
+        ClientSideComponentProperties="{&quot;sampleTextOne&quot;:&quot;One item is selected in the list.&quot;, &quot;sampleTextTwo&quot;:&quot;This command is always visible.&quot;}">
+    </CustomAction>
+</Elements>

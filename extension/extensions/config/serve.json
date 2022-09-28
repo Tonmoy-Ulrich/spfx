@@ -1,0 +1,88 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+    "port": 4321,
+    "https": true,
+    "serveConfigurations": {
+        "default": {
+            "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+            "customActions": {
+                "3f4d581b-bda3-4cfa-86ad-179c6fbc114a": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "testMessage": "Test message"
+                    }
+                }
+            }
+        },
+        "appCustomizer": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/SitePages/Employee.aspx",
+            "customActions": {
+                "3f4d581b-bda3-4cfa-86ad-179c6fbc114a": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "Top": "Top Header",
+                        "Bottom": "Bottom Footer"
+                    }
+                }
+            }
+        },
+        "fieldCustomizer": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/Lists/Employee/AllItems.aspx",
+            "fieldCustomizers": {
+                "Phone": {
+                    "id": "1f7ee53f-9dd2-44a0-ac53-ceab719e5b80",
+                    "properties": {
+                        "sampleText": "Phone Number"
+                    }
+                }
+            }
+        },
+        "commandCustomizer": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/Lists/Employee/AllItems.aspx",
+            "customActions": {
+                "a8c7cdff-2c87-45ad-82dd-6e8f36b2db7d": {
+                    "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+                    "properties": {
+                        "sampleTextOne": "One item is selected in the list",
+                        "sampleTextTwo": "This command is always visible."
+                    }
+                }
+            }
+        },
+        "formCustomizer_NewForm": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/_layouts/15/SPListForm.aspx",
+            "formCustomizer": {
+                "componentId": "cca72544-913c-4f96-91c0-a2f59c64ee8a",
+                "PageType": 8,
+                "RootFolder": "/sites/SharePointRnD/Lists/Employee",
+                "properties": {
+                    "sampleText": "Value"
+                }
+            }
+        },
+        "formCustomizer_EditForm": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/_layouts/15/SPListForm.aspx",
+            "formCustomizer": {
+                "componentId": "cca72544-913c-4f96-91c0-a2f59c64ee8a",
+                "PageType": 6,
+                "RootFolder": "/sites/SharePointRnD/Lists/Employee",
+                "ID": 3,
+                "properties": {
+                    "sampleText": "Value"
+                }
+            }
+        },
+        "formCustomizer_ViewForm": {
+            "pageUrl": "https://nstechltd.sharepoint.com/sites/SharePointRnD/_layouts/15/SPListForm.aspx",
+            "formCustomizer": {
+                "componentId": "cca72544-913c-4f96-91c0-a2f59c64ee8a",
+                "PageType": 4,
+                "RootFolder": "/sites/SharePointRnD/Lists/Employee",
+                "ID": 3,
+                "properties": {
+                    "sampleText": "Value"
+                }
+            }
+        }
+    }
+}

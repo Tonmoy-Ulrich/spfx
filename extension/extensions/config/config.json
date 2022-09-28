@@ -1,0 +1,45 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+    "version": "2.0",
+    "bundles": {
+        "application-customizer": {
+            "components": [
+                {
+                    "entrypoint": "./lib/extensions/appCustomizer/ApplicationCustomizer.js",
+                    "manifest": "./src/extensions/appCustomizer/ApplicationCustomizer.manifest.json"
+                }
+            ]
+        },
+        "field-customizer": {
+            "components": [
+                {
+                    "entrypoint": "./lib/extensions/fieldCustomizer/PhoneFieldCustomizer.js",
+                    "manifest": "./src/extensions/fieldCustomizer/PhoneFieldCustomizer.manifest.json"
+                }
+            ]
+        },
+        "command-customizer-command-set": {
+            "components": [
+                {
+                    "entrypoint": "./lib/extensions/commandCustomizer/CommandCustomizerCommandSet.js",
+                    "manifest": "./src/extensions/commandCustomizer/CommandCustomizerCommandSet.manifest.json"
+                }
+            ]
+        },
+        "form-customizer": {
+            "components": [
+                {
+                    "entrypoint": "./lib/extensions/formCustomizer/FormCustomizer.js",
+                    "manifest": "./src/extensions/formCustomizer/FormCustomizer.manifest.json"
+                }
+            ]
+        }
+    },
+    "externals": {},
+    "localizedResources": {
+        "ApplicationCustomizerStrings": "lib/extensions/appCustomizer/loc/{locale}.js",
+        "PhoneFieldCustomizerStrings": "lib/extensions/fieldCustomizer/loc/{locale}.js",
+        "CommandCustomizerCommandSetStrings": "lib/extensions/commandCustomizer/loc/{locale}.js",
+        "FormCustomizerStrings": "lib/extensions/formCustomizer/loc/{locale}.js"
+    }
+}
