@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fluent-ui-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fluentUiForm/FluentUiFormWebPart.js",
+          "manifest": "./src/webparts/fluentUiForm/FluentUiFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FluentUiFormWebPartStrings": "lib/webparts/fluentUiForm/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

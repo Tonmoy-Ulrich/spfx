@@ -1,0 +1,28 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Configure glob patterns for excluding files and folders in the file explorer.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/bower_components": true,
+        "**/coverage": true,
+        "**/lib-amd": true,
+        "src/**/*.scss.ts": true,
+
+        // personal pref
+        "**/dist": true,
+        "**/lib": true,
+        "**/node_modules": true,
+        "**/release": true,
+        "**/temp": true,
+        "**/teams": true,
+        ".eslintrc.js": true,
+        ".gitignore": true,
+        ".npmignore": true,
+        ".yo-rc.json": true,
+        "package-lock.json": true,
+        "tsconfig.json": true
+    },
+    "typescript.tsdk": ".\\node_modules\\typescript\\lib",
+    "cSpell.words": ["fluentui", "SPFI", "webpart"]
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "spfx-fluent-ui",
+    "libraryId": "b9efb03f-4406-4664-aea6-d8ab778b46c3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-fluent-ui",
+    "solutionShortDescription": "spfx-fluent-ui description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

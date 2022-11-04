@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-fluent-ui-client-side-solution",
+    "id": "b9efb03f-4406-4664-aea6-d8ab778b46c3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-fluent-ui description"
+      },
+      "longDescription": {
+        "default": "spfx-fluent-ui description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-fluent-ui Feature",
+        "description": "The feature that activates elements of the spfx-fluent-ui solution.",
+        "id": "fc90b845-9248-4c3b-abc6-f2ffef1029e8",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-fluent-ui.sppkg"
+  }
+}

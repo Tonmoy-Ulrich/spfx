@@ -1,0 +1,17 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.container {
+    background-color: $ms-color-themePrimary;
+
+    .buttonContainer {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .title {
+        @include ms-font-xl;
+        @include ms-fontColor-white;
+        text-align: center;
+        font-weight: bold;
+    }
+}
